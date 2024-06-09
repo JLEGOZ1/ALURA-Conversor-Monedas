@@ -10,7 +10,7 @@ public class Inicio {
         int seleccion = 0;
 
         while (seleccion != 7) {
-            System.out.println("********************************************\n");
+            System.out.println("-------------------------------------------\n");
             System.out.println("Bienvenido al convertidor de divisas");
             System.out.println("1) USD a MXN");
             System.out.println("2) MXN a USD");
@@ -22,7 +22,7 @@ public class Inicio {
             System.out.println("8) CAD a MXN");
             System.out.println("9) Salir");
             System.out.println(" Elija una opción válida \n");
-            System.out.println("********************************************");
+            System.out.println("\n");
 
             try {
                 seleccion = entrada.nextInt();
